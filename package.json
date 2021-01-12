@@ -31,15 +31,18 @@
   },
   "name": "syntro",
   "private": true,
+  "homepage": "https://vicdus.github.io/syntro/",
   "scripts": {
     "build": "react-scripts build",
     "compile": "tsc",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "deploy": "gh-pages -d dist"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "@types/lodash": "^4.14.166"
+    "@types/lodash": "^4.14.166",
+    "gh-pages": "^3.1.0"
   }
 }
